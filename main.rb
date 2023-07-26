@@ -1,6 +1,4 @@
 require './players'
-# require './scores'
-# require './answers'
 require './questions'
 require './game'
 

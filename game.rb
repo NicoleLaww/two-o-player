@@ -1,3 +1,5 @@
+#Pair Programming w/marijkevanhell
+
 class Game
   attr_accessor :player1, :player2, :game_over
   attr_reader :current_player
@@ -17,8 +19,6 @@ class Game
     end
   end
 
-  #? at the end, when we are checking for booleans
-  #puts game.game_over? - need a question mark when accessing 
   def game_over?
     if player1.lives == 0 || player2.lives == 0
       @game_over = true
